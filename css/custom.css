@@ -1,0 +1,254 @@
+.navbar{
+    background-color: #000;
+    height: 80px;
+    margin-bottom: 0 !important;
+}
+
+.navbar img{
+    height: 70px;
+    width: auto;
+}
+
+.text-yellow{
+    color: #D8C103 !important;
+}
+
+.btn{
+    border: none;
+}
+
+.outline-text{
+    background: -webkit-linear-gradient(#33A905, #12552C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    /* text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff; */
+}
+
+.line{
+    width: 60%;
+    margin: 4px 20% 12px;
+    height: 2px;
+    background-color: #1B660D;
+}
+
+.cart{
+    position: relative;
+    width: 80%;
+    margin: auto;
+}
+
+.cart img{
+    width: 100%;
+    height: auto;
+}
+
+.cart .cart-content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-top: 10%;
+}
+
+.cart .cart-content .textPage1_1{
+    color: #D8C005;
+    font-weight: 700;
+    font-size: 34px;
+    font-family: system-ui;
+}
+
+.cart .cart-content .textContentPage1_1{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    font-family: system-ui;
+    color: #fff;
+}
+
+.img-line{
+    width: 100%;
+    height: auto;
+}
+
+.img-line img{
+    width: 100%;
+}
+
+.slider-title{
+    margin-bottom: 60px;
+}
+
+.slider-title img{
+    width: 100%;
+    height: auto;
+}
+
+.slider-content{
+    background-color: #1b191980;
+    padding: 12px 24px;
+    border-radius: 12px;
+    position: relative;
+}
+
+.slider-content-year{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -20px;
+    right: 0;
+    padding: 4px 48px;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    border-bottom-right-radius: 0;
+    background-image: linear-gradient(180deg, #33A905 10%, #12552C 90%);    
+}
+
+.slider-content .p_font_size_20{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.slider-content .p_font_size_20:last-child{
+    margin-bottom: 0;
+}
+
+.slider-content .p_font_size_20 img{
+    font-size: 19px;
+    line-height: 29px;
+    font-family: system-ui;
+}
+
+.margin-10{
+    width: 100%;
+    height: 5px;
+}
+
+.skill-border{
+    border: 1px solid #fff;
+    padding: 0px 15px;
+    border-radius: 10px;
+}
+
+.skill-border .col-lg-4.col-md-6.col-12{
+    border-left: 1px solid #fff;
+    padding: 0;
+}
+
+.skill-border .d-flex.flex-column{
+    justify-content: space-between;
+    height: 100%;
+}
+
+.skill-border .d-flex.justify-content-between.align-items-center.mb-2{
+    border-bottom: 1px solid #fff;
+    margin-bottom: 0 !important;
+    height: 100%;
+}
+
+.skill-border .d-flex.justify-content-between.align-items-center.mb-2 .skill-title{
+    width: 50%;
+    height: 100%;
+    border-right: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    padding: 10px 0 10px 20px;
+}
+
+.skill-border .d-flex.justify-content-between.align-items-center.mb-2 div:last-child{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.skill-border .d-flex.justify-content-between.align-items-center.mb-2 div:last-child span:not(:first-child){
+    margin-left: 8px;
+}
+
+.bot-title{
+    margin-bottom: 30px;
+}
+
+.bot-title img{
+    width: 100%;
+    height: auto;
+}
+
+.text-primary-bg{
+    width: 146px;
+    padding: 4px 14px;
+    border-radius: 10px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 20px;
+    background-image: linear-gradient(180deg, #33A905 10%, #12552C 90%);
+}
+
+.col-lg-8.col-md-6.col-12.d-flex.flex-column.mb-4.mb-lg-0{
+    padding: 20px 30px !important;
+}
+
+.bot-content span{
+    margin-bottom: 12px !important;
+}
+
+.bot-content span img{
+    height: 40px;
+}
+
+.we-choose-title{
+    margin-bottom: 20px;
+}
+
+.we-choose-title img{
+    height: 37px;
+    width: auto;
+    max-width: 100%;
+}
+
+.we-choose-desc{
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
+    margin-top: 8px;
+}
+
+.footer-main{
+    background-color: #3C4347;
+    color: #fff;
+    font-weight: 500;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footers{
+    text-align: center;
+    font-size: 20px;
+}
+
+.we-choose-title.intro img{
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
