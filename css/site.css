@@ -1266,6 +1266,7 @@ body {
 	.font-size-title {
 		font-weight: 900 !important;
 		font-size: 32px !important;
+		line-height: 42px !important;
 		text-align: justify;
 	}
 
@@ -1615,6 +1616,13 @@ body {
 
 	.bot-content{
 		margin-bottom: 20px;
+	}
+
+	.font-size-title {
+		font-weight: 900 !important;
+		font-size: 32px !important;
+		line-height: 42px !important;
+		text-align: justify;
 	}
 }
 
