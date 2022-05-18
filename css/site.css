@@ -1264,12 +1264,18 @@ body {
 	}
 
 	.font-size-title {
-		font-weight: 600;
-		font-size: 48px
+		font-weight: 900 !important;
+		font-size: 32px !important;
+		text-align: justify;
 	}
 
 	.padding-custom-left {
 		padding-left: 80px
+	}
+
+	.logo-img{
+		height: 50px !important;
+		width: 50px !important;
 	}
 }
 
@@ -1632,6 +1638,11 @@ nav .nav-link {
 
 	.skill-border .d-flex.justify-content-between.align-items-center.mb-2 div:last-child span:not(:first-child) {
 		margin-left: 1px !important;
+	}
+
+	.logo-img{
+		height: 60px !important;
+		width: 60px !important;
 	}
 }
 
