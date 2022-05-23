@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+   <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+   <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+      <title>Login - Project</title>
+      <link href="../css/plugins.bundle.css" rel="stylesheet" />
+      <link href="../css/style.bundle.css" rel="stylesheet" />
+      <link href="../css/white.css" rel="stylesheet" />
+   </head>
+   <body id="kt_body" class="Login" style="background-image: url('../img/bg-3.html');">
+      <div class="d-flex flex-column flex-root Login1">
+         <div class="d-flex flex-column flex-column-fluid bgi-position-y-bottom position-x-center bgi-no-repeat bgi-size-contain bgi-attachment-fixed" style="background-image: url(assets/media/illustrations/progress-hd-2.html)">
+            <div class="d-flex flex-center flex-column flex-column-fluid p-10 pb-lg-20">
+               <div class="w-lg-450px mx-auto authen_box" style="background-image: url('../img/bg-52.png'); ">
+                  <form class="form w-100" method="post" id="kt_sign_in_form" action="https://cft.holdings/Authen/Login">
+                     <input hidden type="text" id="IP" name="IP" value="192.168.1.1" />
+                     <span style="margin-bottom: 4px;" class="text_1">Log in to your account</span><br />
+                     <span class="text_2">
+                        Please login to start your investment plan
+                     </span><br />
+                     <div class="text-center mb-10"></div>
+                     <div class="fv-row mb-6">
+                        <label class="form-label text_3">Username <span class="text-danger">*</span></label>
+                        <input class="form-control ver_2" type="text" placeholder="Enter your username" id="username" name="username" value="" />
+                        <span class="d-block invalid-feedback field-validation-valid" data-valmsg-for="username" data-valmsg-replace="true"></span>
+                     </div>
+                     <div class="fv-row mb-10">
+                        <div class="d-flex flex-stack mb-2">
+                        </div>
+                        <div class="form-group ">
+                           <label class="form-label text_3">
+                                Password <span class="text-danger">*</span>
+                           </label>
+                           <div class="kt-input-icon--right" style="position:relative">
+                              <input autocomplete="off" id="passStr" type="password" class="form-control ver_2" placeholder="Enter your password" name="password" />
+                              <span class="kt-input-icon__icon kt-input-icon__icon___right" style="position: absolute; top: 33%; right: 4%; ">
+                              <span>
+                              <i class="ri-eye-off-line change-icon"></i>
+                              </span>
+                              </span>
+                           </div>
+                        </div>
+                        <span class="d-block invalid-feedback field-validation-valid" data-valmsg-for="password" data-valmsg-replace="true"></span>
+                     </div>
+                     <div class="text-center">
+                        <button type="submit" id="kt_sign_in_submit" class="btn btn-lg btn-success ver_2 w-100 mb-5">
+                            <span class="indicator-label">Sign in</span>
+                            <span class="indicator-progress">
+                                Please wait...
+                            <span class="spinner-border spinner-border-sm align-middle ms-2"></span>
+                            </span>
+                        </button>
+                     </div>
+                     <div class="fv-row mb-2">
+                        <div class="d-flex align-items-center justify-content-between mb-2">
+                           <a class="text_5 cursor-pointer " href="ForgotPassword.html">
+                            Forgot password?
+                           </a>
+                        </div>
+                     </div>
+                     <div class="text__6">Do not have an account? <a class="text_5" href="Register.html">Sign up now</a></div>
+                     <input name="__RequestVerificationToken" type="hidden" value="CfDJ8GbtS_sswZBLumgtCM7S5STeKskokYCYCxgejeMXdo6k0HNTG1gckd5vapY-HABEKYx83jevRdvhT7XWGMgNzEoDM2H4UouaVqAqyN0jEW5ChLdf1OiqrwErW2ZYp380edaPZt5b58_0WNNCB46cuKs" />
+                  </form>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+   <!-- Mirrored from cft.holdings/authen/login by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 17 May 2022 04:41:01 GMT -->
+</html>

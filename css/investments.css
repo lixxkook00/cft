@@ -1,0 +1,62 @@
+.investments-cart{
+    position: relative;
+    background-image: url(../img/Renew/bg-cart-investments.png);
+    margin-top: 20px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    transition: all 0.5s ease-in-out;
+}
+
+.investments-cart:hover{
+    transform: scale(1.02);
+}
+
+.investments-cart::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 12px;
+  padding: 4px; /* control the border thickness */
+  background: linear-gradient(45deg, #DABB81, #AC8834);
+  -webkit-mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+          mask-composite: exclude;
+  pointer-events: none;
+}
+
+.investments-cart-li{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    padding: 15px 0;
+    border-bottom: 1px solid #DABB81;
+}
+
+.investments-cart-title{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.investments-cart-value{
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.investments-cart-value-num{
+    font-size: 28px;
+    margin-bottom: 4px;
+}
+
+
+.investments-cart .primary-btn--yellow:hover{
+    opacity: .5;
+}

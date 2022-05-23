@@ -1,0 +1,56 @@
+.members{
+    color: #fff;
+}
+
+.code-link{
+    padding: 10px 20px;
+}
+
+.code-link-title{
+    font-size: 22px;
+}
+
+.code-link-desc{
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.code-link-main{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1a1c1bbd;
+    padding: 8px 16px;
+    border-radius: 16px;
+}
+
+.code-link-main-icon{
+    margin-right: 12px;
+}
+
+.code-link-main-icon i{
+    color: #C0A15B;
+}
+
+.code-link-main-value{
+    color: #ddd;
+    font-style: italic;
+    flex: 1;
+}
+
+.code-link-main-btn{
+    transition: all 0.5s ease-in-out;
+}
+
+.code-link-main-btn:hover{
+    cursor: pointer;
+    transform: scale(1.3);
+    color: #42a318;
+}
+
+
+
+.table-custom thead tr th,
+.table-custom tbody tr td{
+    text-align: center;
+    font-size: 16px;
+}

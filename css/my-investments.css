@@ -1,0 +1,21 @@
+/* .my-investments .table-custom thead th
+.my-investments .table-custom tbody td{
+    color: #fff !important;
+    font-size: 12px !important;
+} */
+
+.table-title{
+    margin: 30px 0 10px 0;
+    font-size: 18px !important;
+}
+
+.table-custom{
+    margin-top: 4px;
+}
+
+.table-custom thead tr th,
+.table-custom tbody tr td{
+    text-align: center;
+    font-size: 11px;
+    color: #fff;
+}

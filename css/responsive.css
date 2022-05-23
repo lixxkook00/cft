@@ -1,0 +1,236 @@
+/* Mobile & Tablet */
+
+@media (max-width: 1023px) {
+    .hidden-except-pc,
+    .hidden-t {
+        display: none;
+    }
+    .header{
+        height: 56px;
+        display: flex;
+        align-items: center;
+    }
+
+    .header .container,
+    .header .container .row{
+        height: 100%;
+    }
+
+    .header-logo {
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+    
+    .header .infor-wallet{
+        height: 80%;
+    }
+
+    .header .infor-avt{
+        margin-right: 10px;
+    }
+
+    .header .infor-avt img{
+        width: 100%;
+    }
+
+    .custom-col-2{
+        width: 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+        margin-top: 15px;
+    }
+
+    .cart-content-value .title{
+        font-size: 16px;
+    }
+
+    .cart-content-value .desc {
+        font-size: 10px;
+    }
+
+    .header .infor{
+        justify-content:flex-end;
+    }
+
+    .dashboard-parameter-infor-right{
+        font-size: 14px;
+    }
+
+    .dashboard-parameter-bar-name{
+        font-size: 12px;
+    }
+
+    .dashboard-parameter-header-name,
+    .dashboard-bot-header-name{
+        font-size: 17px;
+    }
+
+    .dashboard-parameter-header{
+        flex-direction: column;
+    }
+
+    .dashboard-parameter-header select{
+        margin-top: 10px;
+    }
+
+    .dashboard-member-item{
+        margin-top: 10px;
+    }
+
+    .dashboard-member-item-value{
+        display: flex;
+    }
+
+    .dashboard-member-item-value .primary-text{
+        margin-right: 8px;
+    } 
+
+    .footer{
+        font-size: 12px;
+    }
+
+    .header-logo img {
+        height: 120%;
+        width: auto;
+    }
+
+    .table-custom thead tr th, .table-custom tbody tr td{
+        font-size: 10px;
+        padding: 8px 4px;
+    }
+    .cart{
+        margin-top: 15px;
+    }
+
+    .pt-30{
+        padding-top: 10px;
+    }
+}
+
+/* // Motherfucking Iphone 5S */
+@media (max-width: 321px) {
+    .hidden-except-pc{
+        display: none !important;
+    }
+
+    .cart-content-value .title{
+        font-size: 12px;
+    }
+
+    .cart-content-value .desc {
+        font-size: 8px;
+    }
+}
+
+/* Tablet Only */
+
+@media (min-width: 740px) and (max-width: 1023px) {
+    .hidden-except-pc,
+    .hidden-m-t {
+        display: none !important;
+    }
+
+    .cart-content-value .title{
+        font-size: 16px;
+    }
+
+    .cart-content-value .desc {
+        font-size: 12px;
+    }
+
+    .header-logo {
+        height: 48px;
+    }
+
+    .header .infor-wallet{
+        height: 80%;
+    }
+}
+
+/* Mobile Only */
+
+@media (max-width: 739px) {
+    .hidden-except-pc,
+    .hidden-m {
+        display: none !important;
+    }
+
+    .col-xl-1.col-1{
+        display: flex;
+        align-items: center;
+    }
+
+    .header{
+        height: 56px;
+        display: flex;
+        align-items: center;
+    }
+
+    .header .container,
+    .header .container .row{
+        height: 100%;
+    }
+
+    .header-logo {
+        height: 56px;
+        display: flex;
+        align-items: center;
+    }
+
+    .btn.btn-custom-4{
+        font-size: 14px;
+    }
+}
+
+/* Tablet to PC low resolution */
+
+@media (min-width: 985px) and (max-width: 1200px) {
+    .hidden-except-pc,
+    .hidden-t-pc-low {
+        display: none !important;
+    }
+
+    .cart-content-value .title{
+        font-size: 14px;
+    }
+
+    .cart-content-value .desc {
+        font-size: 8px;
+    }
+
+    .header-logo {
+        height: 48px;
+    }
+
+    .header .infor-wallet{
+        height: 80%;
+    }
+
+    .header .infor{
+        justify-content:flex-end;
+    }
+}
+
+/* > PC low resolution */
+
+@media (min-width: 1024px) and (max-width: 1239px) {
+}
+
+/* PC only */
+
+@media (min-width: 1024px) {
+    .hide-on-pc {
+        display: none !important;
+    }
+}
+
+/* // PC */
+/* @media (min-width: 1200px) {
+    // .container {
+    //     max-width: 1280px;
+    // }
+    .about__item-content {
+        max-width: 173px;
+    }
+} */

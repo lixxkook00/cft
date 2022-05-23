@@ -1,0 +1,22 @@
+.buttons{
+    margin-top: 20px;
+}
+
+.btn{
+    width: 100%;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 10px 0;
+    margin-top: 10px;
+}
+
+.table-custom{
+    margin-top: 40px;
+}
+
+.table-custom thead tr th,
+.table-custom tbody tr td{
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+}
